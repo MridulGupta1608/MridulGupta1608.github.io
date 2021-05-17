@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="portfolio">
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT">
+    <meta name="author" content="MridulGupta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Welcome Home</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= window.innerHeight * 0.9) {
+                    $('.navbar').css('background', '#020202');
+                } else {
+                    $('.navbar').css('background', 'transparent');
+                }
+            });
+            console.log("dc");
+        });
+    </script>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-item">
+            <li><a href="#">About us</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="background">
+        <div class="intro">
+            <h1>MRIDUL GUPTA</h1>
+            <p>Web Developer</p>
+        </div>
+    </div>
+    <section id="work" class="bottom-margin">
+
+    </section>
+    <div class="work-container">
+        <section class="project-bottom">
+            <h1>Projects</h1>
+        </section>
+
+
+        <div class="container">
+            <div class="work-img">
+
+                <!-- <img src="night.jpg" class="night-img" /> -->
+                <img src="bitcoin.jpg" class="bit-img" />
+
+
+            </div>
+            <div class="work-part">
+                <h1>
+                    <a href="https://mridulgupta1608.github.io/Cryptocurrency-tracker/" target="_blank">
+                        Cryptocurrency Tracker
+                    </a>
+                </h1>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="work-part">
+                <h1>
+                    <a href="https://mridulgupta1608.github.io/Covid19/" target="_blank">
+                        Covid19 Tracker
+                    </a>
+                </h1>
+            </div>
+
+            <div class="work-img">
+                <!-- <img src="night1.jpg" class="night-img" /> -->
+                <img src="covid.png" class="covid-img" />
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="work-img">
+                <!-- <img src="night2.jpg" class="night-img" /> -->
+                <img src="todo.jpg" class="todo-img" />
+            </div>
+            <div class="work-part">
+                <h1>
+                    <a href="https://mridulgupta1608.github.io/To-Do-List/" target="_blank">
+                        To-Do-List
+                    </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact" class="contact">
+        <div class="center">
+            <h1>Let's get in touch...</h1>
+            <div class="contact-details">
+                <a href="https://www.linkedin.com/in/mridul-gupta-27948119a" class="contact-item" target="_blank">
+
+                    <h6><i class="fab fa-linkedin"></i> LinkedIn</h3>
+                </a>
+                <a href="https://github.com/MridulGupta1608" class="contact-item" target="_blank">
+                    <h6><i class="fab fa-github"></i> Git Hub</h3>
+                </a>
+
+                <a href="mailto:mridulg99@gmail.com" class="contact-item" target="_blank">
+                    <h6><i class="fa fa-at"></i> Email</h3>
+                </a>
+
+                <a href="tel:+918093567950" class="contact-item" target="_blank">
+                    <h6><i class="fas fa-mobile-alt"></i> Phone no.</h3>
+                </a>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
