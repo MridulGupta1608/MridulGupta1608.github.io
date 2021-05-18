@@ -366,6 +366,11 @@ a{
   .center > h1:nth-child(1) {
     margin-left: 10px;
     }
+  
+  .work-part a:hover{
+    
+  }
+
 
   .contact-item{
     height: 60px;
